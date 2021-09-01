@@ -17,7 +17,9 @@ flash使用的是amf数据格式进行的数据交换，这是一种二进制文
 
 python3使用的amf工具包为pyamf
 安装时执行指令
+
     pip install Py3AMF
+
 在GitHub中的pyamf项目中看到实例使用的时messaging.remoting类，我照例使用了一下，抓取到python发出的数据请求与浏览器发送的相去甚远，于是查看remoting和massaging的源码，发现发送的数据包只需要将一个类传进remoting.Request函数中转换成amf3格式就可以发送了。
 遂编写一个MyMessage类用来组织羊村服务器所需的数据格式
 

@@ -46,4 +46,4 @@ python3使用的amf工具包为pyamf
 
 ![image](https://user-images.githubusercontent.com/72846399/131704843-3a1dd731-dd84-43ae-b8ce-fac79523f527.png)
 
-附上![游戏网址](http://tdsheep.tdsheepvillage.com/?)
+附上[游戏网址](http://tdsheep.tdsheepvillage.com/?)
